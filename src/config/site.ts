@@ -36,12 +36,12 @@ export type Photo = {
 export const SITE = {
   name: "Galvanini Homes",
   // LINK DO ANÚNCIO NO AIRBNB — substitua pelo link real
-  airbnbUrl: "https://www.airbnb.com.br/",
-  // LINK DO MAPA (Google Maps) — substitua pelo endereço real
-  mapUrl: "https://www.google.com/maps",
+  airbnbUrl: "https://www.airbnb.com.br/rooms/1577119437458807910",
+  address: "Rua Dr. José Evaristo, 294 — Areia, PB",
+  mapUrl: "https://www.google.com/maps/search/?api=1&query=Rua+Dr+Jos%C3%A9+Evaristo+294+Areia+PB",
   contact: {
-    whatsappLabel: "(12) 99999-9999",
-    whatsappUrl: "https://wa.me/5512999999999",
+    whatsappLabel: "(83) 99855-1314",
+    whatsappUrl: "https://wa.me/5583998551314",
     instagramLabel: "@galvaninihomes",
     instagramUrl: "https://instagram.com/galvaninihomes",
     email: "contato@galvaninihomes.com",

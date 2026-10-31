@@ -82,7 +82,7 @@ export function Gallery() {
 
       <ul className="gallery-track container-site mt-8" data-reveal>
         {PHOTOS.gallery.map((photo, i) => (
-          <li key={photo.label} className="gallery-item">
+          <li key={photo.alt} className="gallery-item">
             <button
               onClick={() => setLightbox(i)}
               aria-label={`Ampliar foto: ${photo.label}`}
@@ -114,7 +114,7 @@ export function Gallery() {
             </div>
             <ul className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
               {all.map((photo, i) => (
-                <li key={photo.label} className={i === 0 ? "col-span-2 row-span-2" : ""}>
+                <li key={photo.alt} className={i === 0 ? "col-span-2 row-span-2" : ""}>
                   <button
                     onClick={() => setLightbox(i)}
                     aria-label={`Ampliar foto: ${photo.label}`}

@@ -19,6 +19,7 @@ export function Hero() {
         photo={PHOTOS.hero}
         eager
         className="absolute inset-0 -z-10"
+        imgClassName="object-[center_65%]"
         placeholderClassName="justify-end pb-6 md:justify-center md:pb-4 md:pl-[50%]"
       />
       <div className="hero-fade absolute inset-0 -z-10" aria-hidden="true" />

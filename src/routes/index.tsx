@@ -6,12 +6,12 @@ import { About, Amenities, Footer, Gallery, Hero, Location } from "@/components/
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Galvinini Homes — Hospedagem de temporada" },
+      { title: "Galvanini Homes — Hospedagem de temporada" },
       {
         name: "description",
-        content: "Conforto, praticidade e uma experiência única para sua estadia. Reserve a Galvinini Homes no Airbnb.",
+        content: "Conforto, praticidade e uma experiência única para sua estadia. Reserve a Galvanini Homes no Airbnb.",
       },
-      { property: "og:title", content: "Galvinini Homes — Seu lugar longe de casa" },
+      { property: "og:title", content: "Galvanini Homes — Seu lugar longe de casa" },
       {
         property: "og:description",
         content: "Hospedagem de temporada aconchegante, moderna e completamente equipada.",

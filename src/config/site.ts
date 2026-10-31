@@ -13,7 +13,7 @@ const assetUrl = (a: unknown) => (a as { url: string }).url;
 
 /**
  * ============================================================
- *  CONFIGURAÇÃO CENTRAL DO SITE — GALVININI HOMES
+ *  CONFIGURAÇÃO CENTRAL DO SITE — GALVANINI HOMES
  * ============================================================
  *  Todos os links e caminhos de fotos ficam aqui.
  *
@@ -34,7 +34,7 @@ export type Photo = {
 };
 
 export const SITE = {
-  name: "Galvinini Homes",
+  name: "Galvanini Homes",
   // LINK DO ANÚNCIO NO AIRBNB — substitua pelo link real
   airbnbUrl: "https://www.airbnb.com.br/",
   // LINK DO MAPA (Google Maps) — substitua pelo endereço real
@@ -42,9 +42,9 @@ export const SITE = {
   contact: {
     whatsappLabel: "(12) 99999-9999",
     whatsappUrl: "https://wa.me/5512999999999",
-    instagramLabel: "@galvininihomes",
-    instagramUrl: "https://instagram.com/galvininihomes",
-    email: "contato@galvininihomes.com",
+    instagramLabel: "@galvaninihomes",
+    instagramUrl: "https://instagram.com/galvaninihomes",
+    email: "contato@galvaninihomes.com",
   },
 };
 
@@ -58,10 +58,10 @@ export const NAV_LINKS = [
 
 export const PHOTOS = {
   // FOTO PRINCIPAL DA SALA DE ESTAR (fundo do topo da página)
-  hero: { src: assetUrl(salaSofa), alt: "Sala de estar da Galvinini Homes", label: "Foto principal — Sala de estar" } as Photo,
+  hero: { src: assetUrl(salaSofa), alt: "Sala de estar da Galvanini Homes", label: "Foto principal — Sala de estar" } as Photo,
 
   // FOTO DE DESTAQUE DO QUARTO (seção Sobre)
-  about: { src: assetUrl(quartoDestaque), alt: "Quarto aconchegante da Galvinini Homes", label: "Foto de destaque — Quarto" } as Photo,
+  about: { src: assetUrl(quartoDestaque), alt: "Quarto aconchegante da Galvanini Homes", label: "Foto de destaque — Quarto" } as Photo,
 
   // GALERIA PRINCIPAL — 5 fotos
   gallery: [

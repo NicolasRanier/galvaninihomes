@@ -48,7 +48,7 @@ export function About() {
         <div data-reveal>
           <Eyebrow>Sobre</Eyebrow>
           <h2 className="heading-lg mt-3">
-            Bem-vindo à <br className="hidden md:block" /> Galvinini Homes
+            Bem-vindo à <br className="hidden md:block" /> Galvanini Homes
           </h2>
           <p className="mt-5 max-w-sm leading-relaxed text-ink/85">
             Oferecemos um espaço acolhedor, moderno e completamente equipado para que você tenha uma estadia
@@ -237,7 +237,7 @@ export function Footer() {
         </div>
       </div>
       <p className="mt-10 border-t border-border py-5 text-center text-xs text-ink/70">
-        © 2024 Galvinini Homes. Todos os direitos reservados.
+        © 2024 Galvanini Homes. Todos os direitos reservados.
       </p>
     </footer>
   );

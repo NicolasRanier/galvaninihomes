@@ -19,7 +19,7 @@ export function Header() {
       className={`sticky top-0 z-50 bg-background/95 backdrop-blur transition-shadow duration-300 ${scrolled ? "shadow-soft" : ""}`}
     >
       <div className="container-site flex h-[72px] items-center justify-between gap-6">
-        <a href="#inicio" aria-label="Galvinini Homes — início">
+        <a href="#inicio" aria-label="Galvanini Homes — início">
           <Logo />
         </a>
 

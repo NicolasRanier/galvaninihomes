@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AirVent, BedDouble, CookingPot, Images, Mail, MapPin, Wifi, Instagram, X } from "lucide-react";
+import { BedDouble, CookingPot, Images, Mail, MapPin, Wifi, Instagram, X } from "lucide-react";
 import { NAV_LINKS, PHOTOS, SITE, type Photo } from "@/config/site";
 import { ImageSlot } from "./ImageSlot";
 import { Lightbox } from "./Lightbox";
@@ -139,7 +139,6 @@ const AMENITIES = [
   { icon: Wifi, title: "Wi-Fi rápido", text: "Internet de alta velocidade" },
   { icon: BedDouble, title: "Quartos confortáveis", text: "Camas confortáveis e roupa de cama inclusa" },
   { icon: CookingPot, title: "Cozinha completa", text: "Utensílios e eletrodomésticos à sua disposição" },
-  { icon: AirVent, title: "Ar-condicionado", text: "Ambientes climatizados para seu conforto" },
   { icon: MapPin, title: "Ótima localização", text: "Próximo a mercados, restaurantes e atrações" },
 ];
 
@@ -150,7 +149,7 @@ export function Amenities() {
         <Eyebrow>Comodidades</Eyebrow>
         <h2 className="heading-lg mt-2">Tudo que você precisa</h2>
       </div>
-      <ul className="container-site mt-10 grid grid-cols-2 gap-y-10 sm:grid-cols-3 lg:grid-cols-5" data-reveal>
+      <ul className="container-site mt-10 grid grid-cols-2 gap-y-10 sm:grid-cols-3 lg:grid-cols-4" data-reveal>
         {AMENITIES.map(({ icon: Icon, title, text }) => (
           <li key={title} className="amenity">
             <Icon className="mx-auto h-7 w-7 text-primary" strokeWidth={1.4} />

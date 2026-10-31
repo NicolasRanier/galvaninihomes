@@ -1,3 +1,4 @@
+import salaSofa from "@/assets/sala-sofa.jpg.asset.json";
 /**
  * ============================================================
  *  CONFIGURAÇÃO CENTRAL DO SITE — GALVININI HOMES
@@ -45,7 +46,7 @@ export const NAV_LINKS = [
 
 export const PHOTOS = {
   // FOTO PRINCIPAL DA SALA DE ESTAR (fundo do topo da página)
-  hero: { src: null, alt: "Sala de estar da Galvinini Homes", label: "Foto principal — Sala de estar" } as Photo,
+  hero: { src: salaSofa.url, alt: "Sala de estar da Galvinini Homes", label: "Foto principal — Sala de estar" } as Photo,
 
   // FOTO DE DESTAQUE DO QUARTO (seção Sobre)
   about: { src: null, alt: "Quarto aconchegante da Galvinini Homes", label: "Foto de destaque — Quarto" } as Photo,

@@ -237,7 +237,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mt-10 border-t border-border py-5 text-center text-xs text-ink/70">
-        <p>© 2024 Galvanini Homes. Todos os direitos reservados.</p>
+        <p>© 2026 Galvanini Homes. Todos os direitos reservados.</p>
         <p className="mt-2">
           Desenvolvido por <span className="font-mono text-primary">{"<nicolasranier.dev/>"}</span>
         </p>

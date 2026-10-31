@@ -7,11 +7,13 @@ export function ImageSlot({
   photo,
   className,
   imgClassName,
+  placeholderClassName,
   eager,
 }: {
   photo: Photo;
   className?: string;
   imgClassName?: string;
+  placeholderClassName?: string;
   eager?: boolean;
 }) {
   return (
@@ -27,7 +29,7 @@ export function ImageSlot({
         <div
           role="img"
           aria-label={photo.alt}
-          className="placeholder-slot flex h-full w-full flex-col items-center justify-center gap-2 p-4 text-center"
+          className={cn("placeholder-slot flex h-full w-full flex-col items-center justify-center gap-2 p-4 text-center", placeholderClassName)}
         >
           <ImageIcon className="h-7 w-7 text-taupe" strokeWidth={1.25} />
           <span className="text-xs font-medium uppercase tracking-[0.18em] text-taupe">

@@ -15,7 +15,12 @@ export function Hero() {
   return (
     <section id="inicio" className="relative isolate overflow-hidden">
       {/* FOTO PRINCIPAL DA SALA DE ESTAR — ocupa o fundo */}
-      <ImageSlot photo={PHOTOS.hero} eager className="absolute inset-0 -z-10" />
+      <ImageSlot
+        photo={PHOTOS.hero}
+        eager
+        className="absolute inset-0 -z-10"
+        placeholderClassName="justify-end pb-6 md:justify-center md:pb-4 md:pl-[50%]"
+      />
       <div className="hero-fade absolute inset-0 -z-10" aria-hidden="true" />
       <div className="container-site flex min-h-[460px] items-center py-20 md:min-h-[520px]">
         <div className="max-w-md" data-reveal>

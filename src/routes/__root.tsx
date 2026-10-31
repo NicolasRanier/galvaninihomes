@@ -78,9 +78,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Galvinini Homes" },
-      { name: "description", content: "Hospedagem de temporada Galvinini Homes." },
-      { name: "author", content: "Galvinini Homes" },
+      { title: "Galvanini Homes" },
+      { name: "description", content: "Hospedagem de temporada Galvanini Homes." },
+      { name: "author", content: "Galvanini Homes" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

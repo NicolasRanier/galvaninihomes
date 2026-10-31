@@ -21,7 +21,7 @@ export function WhatsAppIcon(props: SVGProps<SVGSVGElement>) {
 export function Logo({ className = "" }: { className?: string }) {
   return (
     <span className={`inline-flex flex-col items-center leading-none ${className}`}>
-      <span className="font-display text-2xl tracking-[0.06em] text-ink">GALVININI</span>
+      <span className="font-display text-2xl tracking-[0.06em] text-ink">GALVANINI</span>
       <span className="mt-1 text-[0.6rem] font-medium tracking-[0.55em] text-taupe">HOMES</span>
     </span>
   );

@@ -34,6 +34,7 @@ export function Lightbox({
 
   if (!open) return null;
   const photo = photos[index!];
+  if (!photo) return null;
 
   return (
     <div

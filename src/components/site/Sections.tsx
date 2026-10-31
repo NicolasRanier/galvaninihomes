@@ -173,6 +173,7 @@ export function Location() {
             <Eyebrow>Localização</Eyebrow>
             <h2 className="heading-md mt-2">Localização estratégica</h2>
             <p className="mt-3 text-sm text-ink/80">Fácil acesso e perto de tudo que você precisa.</p>
+            <p className="mt-2 text-sm font-medium text-ink">{SITE.address}</p>
             <a href={SITE.mapUrl} target="_blank" rel="noopener noreferrer" className="btn-outline btn-sm mt-5">
               <MapPin className="h-4 w-4" /> Ver no mapa
             </a>

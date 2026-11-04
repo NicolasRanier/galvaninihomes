@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BedDouble, CookingPot, Images, Mail, MapPin, Wifi, Instagram, X } from "lucide-react";
+import { BedDouble, CookingPot, Images, MapPin, Wifi, Instagram, X } from "lucide-react";
 import { NAV_LINKS, PHOTOS, SITE, type Photo } from "@/config/site";
 import { ImageSlot } from "./ImageSlot";
 import { Lightbox } from "./Lightbox";
@@ -217,11 +217,6 @@ export function Footer() {
             <li>
               <a href={contact.instagramUrl} target="_blank" rel="noopener noreferrer" className="footer-link inline-flex items-center gap-2">
                 <Instagram className="h-4 w-4" strokeWidth={1.6} /> {contact.instagramLabel}
-              </a>
-            </li>
-            <li>
-              <a href={`mailto:${contact.email}`} className="footer-link inline-flex items-center gap-2 break-all">
-                <Mail className="h-4 w-4 shrink-0" strokeWidth={1.6} /> {contact.email}
               </a>
             </li>
           </ul>

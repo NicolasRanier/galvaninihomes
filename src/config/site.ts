@@ -42,8 +42,8 @@ export const SITE = {
   contact: {
     whatsappLabel: "(83) 99855-1314",
     whatsappUrl: "https://wa.me/5583998551314",
-    instagramLabel: "@galvaninihomes",
-    instagramUrl: "https://instagram.com/galvaninihomes",
+    instagramLabel: "@galvanini.homes",
+    instagramUrl: "https://www.instagram.com/galvanini.homes",
     email: "contato@galvaninihomes.com",
   },
 };

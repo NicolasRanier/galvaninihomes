@@ -16,7 +16,7 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-background/95 backdrop-blur transition-shadow duration-300 ${scrolled ? "shadow-soft" : ""}`}
+      className={`sticky top-0 z-50 bg-background/95 pt-4 backdrop-blur transition-shadow duration-300 ${scrolled ? "shadow-soft" : ""}`}
     >
       <div className="container-site relative flex h-[72px] items-center justify-between gap-6">
         <span className="w-11 sm:hidden" aria-hidden="true" />
